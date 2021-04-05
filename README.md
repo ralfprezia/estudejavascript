@@ -1,3 +1,3 @@
 # Conceitos.javascript
-Introdução completa ao JavaScript
+Introdução completa ao JavaScript  ES6
 Projeto em andamento...
