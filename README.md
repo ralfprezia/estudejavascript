@@ -1,2 +1,2 @@
-# intro.javascript
-Introdução ao JavaScript
+# Conceitos.javascript
+Introdução completa ao JavaScript
