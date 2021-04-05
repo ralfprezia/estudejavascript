@@ -1,2 +1,3 @@
-# intro.javascript
-Introdução ao JavaScript
+# Conceitos.javascript
+Introdução completa ao JavaScript  (ES6)
+Projeto em andamento...
