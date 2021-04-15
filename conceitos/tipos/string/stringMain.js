@@ -1,5 +1,5 @@
 //Função que retorna o tamanho de uma string
-const textSize = 'Texto'.length;
+const textSize = 'Texto'.length;//quantidade de caracteres 
 console.log(`Quantidade de letras: ${textSize}`);
 
 //Função que retorna um array quebrando a string por um delimitador
