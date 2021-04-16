@@ -9,7 +9,7 @@ console.log('Número transformado em string: ', typeof numeroParaString);//typeo
 const duasCasasDecimais = meuNumero.toFixed(2);
 console.log('\nNúmero com duas casas decimais:', duasCasasDecimais);
 
-//Transforma uma string em float
+//Transforma uma string em float             parsefloat permite casas decimais
 console.log('\nString parseada para float:', parseFloat('13.22'));
 
 //Transforma uma string em int

@@ -22,6 +22,6 @@ const secondToEnd = 'Texto'.slice(1);
 console.log('\nValor na string da segunda letra até a última:', secondToEnd);
 
 //Função que retorna N caractéres a partir de uma posição
-                                    //(start[0], 2 letras )
+                                    //(start[0], 2 quantidade de letras )
 const twoCharBeforeFirstPos = 'Texto'.substr(0, 2);
 console.log('\nAs primeiras duas letras são:', twoCharBeforeFirstPos);

@@ -1,2 +1,3 @@
 const variavelNula = null;
-console.log(typeof variavelNula);//SEMPRE será 'object'
+console.log(variavelNula);
+//console.log(typeof variavelNula);//SEMPRE será 'object'

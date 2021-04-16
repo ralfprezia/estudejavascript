@@ -1,36 +1,25 @@
-//Object com o nome de (user)
+
 let user = {
-    name: 'Ralf'//propriedade name:
+    name: 'Ralf'
 };
-//console.log(user);
-
-
-//Alterando a propriedade de um obejeto
-user.name = 'Outro nome 1';//1° forma de acessar um objeto com valor
 console.log(user);
-user['name'] = 'Outro nome 2';//2° forma de acessar um objeto com valor
-//console.log(user);
+
+user.name = 'Outro nome 1';
+console.log(user);
+user['name'] = 'Outro nome 2';
 
 
- 
+console.log(user);
 const prop = 'name';
 user[prop] = 'Outro nome 3';
 
-//Forma de acessar o prop
-
-//const prop = 'name';
-//user[prop] = 'Outro nome 3';
-/*function getProp(prop){
-    return user[prop]
-}*/
-
-
 console.log(user);
 
+user.lastName = 'Cabrini da Silva';
+console.log(user);
+delete user.name;
 
-//Criando uma propriedade
-//user.lastname = 'Franco Prezia Carneiro'
-//console.log(user);
 
-//Deletando uma propriedade
-//delete user.name;
+delete user.name;
+
+console.log(user);
