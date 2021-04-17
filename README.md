@@ -1,3 +1,3 @@
-# Aprenda.javascript(ES6)
-Introdução completa ao JavaScript  (ES6)
+# Aprenda.javascript
+Conheça a extensão  (ES6)
 Projeto em andamento...
