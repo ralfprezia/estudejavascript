@@ -69,13 +69,28 @@
                 <p><u>São eles:</u></p>
                 <li class="factory">Factory</li>
                 <p>Todas as funções que retornam um objeto, sem a necessidade de<br>chama-las com o new, são consideradas funções Factory(fábrica).</p>
+                <P><BR></P>
                 <li>Singleton</li>
                 <h5>JQuery é o padrão mais popular de Singleton.</h5>
-                
+                <h4>Ex:</h4>
+                <p>function MyApp()&nbsp;{<br><br>&nbsp;&nbsp;&nbsp;&nbsp;if(!MyApp.instance) {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MyApp.instance = this;<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return MyApp.instance;<br>}</p>
                 <p>O objetivo deste pattern é criar uma única instância de uma função<br>construtora e retorná-la toda vez em que for necessário utilizá-la</p>
+                <P><BR></P>
                 <li>Decorator</li>
+                <p>Uma função decorator recebe uma outra função como parãmetro e<br>estende o seu comportamento sem modificá-la explicitamente.</p>
+                <h4>Ex:</h4>
+                <p>@Componet({<br><br>&nbsp;&nbsp;&nbsp;&nbsp;selector: 'app-reactive-favorite-color',<br>&nbsp;&nbsp;&nbsp;&nbsp;template: `<br>&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;...<br>})</p>
+                <P><BR></P>
                 <li>Observer</li>
+                <P>É composto por um construtor() e uma lista para ser observada(this.observables = [ ];)<br>um subscribe(fn) chamando o yhis.observables.push(fn) e um notfy(data) realizando um forEach<br>chamando a função e passando um dado.</P>
+                <p>É um pattern muito popular em aplicações javascript.<br>A instância(subscriber) mantém uma coleção de objetos(observers)<br>e notifica todos eles quando ocorrem mudanças no estado.</p>
+                <h4>Ex:<br>funcionalidade do vue.js,<br> no RxJS no Angular com Observable.</h4>
+                <p>Toda vez que chama a propriedade set, ele controla a atualização de um valor ou não<br>sempre houver alteração haverá a função notify().</p>
+                <P><BR></P>
                 <li>Module</li>
+                <p>É um patterne utilizado com o Node.JS, que possibilita organizarmos melhor o nosso código, separar por responsabilidade<br>sem a necessidade de expor variáveis globais.</p>
+                <p>class Person {<br>&nbsp;&nbsp;&nbsp;constructor(name) {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.name = name;<br>&nbsp;&nbsp;&nbsp;}<br>}<br><br>export default Person;<br>import Person from './models/person';<br></p>
+                <P><BR></P>
             </ul>
         </ul>
     </ul>
