@@ -16,7 +16,7 @@ Estrutura condicional,
 Saidas e 
 Entradas.
 
-Para executar no console do VSCode instale o Node.Js e utilize o comando Ctrl + Alt + N.
-Para executar no navegador, utilize o Live Server utilizando o comando Ctrl + Shift + P
+Para executar no console do VSCode instale o Node.Js e utilize o comando Ctrl + Alt + N.<br>
+Para executar no navegador, utilize o Live Server utilizando o comando Ctrl + Shift + P.
 
 Projeto em andamento...
