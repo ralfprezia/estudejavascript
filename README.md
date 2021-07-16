@@ -8,10 +8,10 @@ Lembre sempre de descomentar o código.
 Exemplos de:
 Funções,
 Array,
-Operações Básicas,
-Variáveis Globais,
-Estrutura de Repetição,
-Estrutura condicional,
+Operações Básicas, 
+Variáveis Globais, 
+Estrutura de Repetição, 
+Estrutura condicional, 
 
 Saidas e 
 Entradas.
